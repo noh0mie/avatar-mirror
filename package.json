@@ -11,6 +11,24 @@
     "ecs:install-next": "npm install --save-dev decentraland-ecs@next"
   },
   "devDependencies": {
-    "decentraland-ecs": "^6.10.0"
-  }
+    "decentraland-ecs": "^6.11.10"
+  },
+  "dependencies": {
+    "@dcl/crypto-scene-utils": "^1.1.1",
+    "@dcl/ecs-scene-utils": "^1.7.5",
+    "@dcl/l2-scene-utils": "^1.0.7",
+    "@dcl/ui-scene-utils": "^1.8.4",
+    "decentraland-eth": "^8.18.2",
+    "decentraland-transactions": "^1.41.0",
+    "eth-connect": "^6.0.3",
+    "web3-provider-engine": "^16.0.4"
+  },
+  "bundledDependencies": [
+    "@dcl/crypto-scene-utils",
+    "@dcl/ecs-scene-utils",
+    "eth-connect",
+    "@dcl/l2-scene-utils",
+    "decentraland-transactions",
+    "@dcl/ui-scene-utils"
+  ]
 }
